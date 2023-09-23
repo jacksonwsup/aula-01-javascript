@@ -33,7 +33,7 @@ function login() {
             localStorage.setItem("token", res.access_token);
             //console.log(res.access_token);
             //console.log(localStorage.getItem("token"));
-            window.location.href = "/Aula-01-exercicio/front/dashboard.html";
+            window.location.href = "/front/dashboard.html";
         }
       });
 
