@@ -6,13 +6,13 @@ function login() {
     const pwd = document.querySelector("#password").value;
 
     //console.log(email);
-    //console.log(password);
+    console.log(password);
     
-    //const hashedPWD = sha1(pwd);
+    const hashedPWD = sha1(pwd);
 
     const body = {
         email,
-        password: pwd //hashedPWD
+        password: hashedPWD
     };
 
     console.log(body);
@@ -33,7 +33,7 @@ function login() {
             localStorage.setItem("token", res.access_token);
             //console.log(res.access_token);
             //console.log(localStorage.getItem("token"));
-            window.location.href = "/front/dashboard.html";
+            window.location.href = "/Aula-01-exercicio/front/dashboard.html";
         }
       });
 
