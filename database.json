@@ -1,0 +1,25 @@
+{
+  "restaurantes": [
+    {
+      "id": 1,
+      "nome": "Restaurante Sucesso",
+      "taxaFrete": "9.00"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Casa da Sopa",
+      "preco": "2.00"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "itens": {
+        "produto": 10,
+        "quantidade": 10
+      }
+    }
+  ]
+}
